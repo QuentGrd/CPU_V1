@@ -576,6 +576,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <circ-port height="10" pin="740,320" width="10" x="85" y="55"/>
       <circ-port height="8" pin="190,160" width="8" x="46" y="56"/>
       <circ-port height="8" pin="240,160" width="8" x="66" y="86"/>
+      <circ-port height="10" pin="740,210" width="10" x="85" y="65"/>
       <circ-anchor facing="east" height="6" width="6" x="87" y="57"/>
     </appear>
     <wire from="(190,300)" to="(330,300)"/>
@@ -599,6 +600,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(520,230)" to="(520,250)"/>
     <wire from="(660,320)" to="(740,320)"/>
     <wire from="(240,160)" to="(240,230)"/>
+    <wire from="(670,210)" to="(740,210)"/>
     <wire from="(620,210)" to="(670,210)"/>
     <wire from="(520,280)" to="(520,300)"/>
     <wire from="(380,320)" to="(490,320)"/>
@@ -629,6 +631,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="S"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(740,210)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="S_B"/>
       <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(190,160)" name="Pin">
