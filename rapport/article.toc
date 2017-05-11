@@ -1,0 +1,24 @@
+\select@language {french}
+\contentsline {section}{\numberline {1}Introduction}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {section}{\numberline {2}Sp\'ecification du processeur}{2}
+\contentsline {subsection}{\numberline {2.1}L'ALU}{2}
+\contentsline {paragraph}{Premier paragraphe}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {subsection}{\numberline {2.2}Le banc de registre}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {subsection}{\numberline {2.3}L'unit\'e d'adressage}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {subsection}{\numberline {2.4}L'unit\'e de contr\^ole}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {section}{\numberline {3}R\'ealisation }{2}
+\contentsline {subsection}{\numberline {3.1}L'ALU}{2}
+\contentsline {paragraph}{Composition}{2}
+\contentsline {subsection}{\numberline {3.2}Le banc de registre}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {subsection}{\numberline {3.3}L'unit\'e d'adressage}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {subsection}{\numberline {3.4}L'unit\'e de contr\^ole}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {section}{\numberline {4}D\'eroulement du projet}{4}
+\contentsline {section}{\numberline {5}Conclusion}{4}
