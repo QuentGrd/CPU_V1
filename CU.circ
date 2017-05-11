@@ -92,12 +92,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <circ-port height="10" pin="1040,380" width="10" x="205" y="45"/>
       <circ-port height="10" pin="1040,410" width="10" x="235" y="45"/>
       <circ-port height="10" pin="1020,450" width="10" x="255" y="135"/>
-      <circ-port height="10" pin="1020,180" width="10" x="95" y="245"/>
+      <circ-port height="10" pin="1020,180" width="10" x="185" y="245"/>
       <circ-port height="10" pin="1020,150" width="10" x="45" y="155"/>
-      <circ-port height="10" pin="1020,500" width="10" x="115" y="245"/>
-      <circ-port height="10" pin="890,600" width="10" x="45" y="205"/>
-      <circ-port height="8" pin="380,570" width="8" x="46" y="196"/>
-      <circ-port height="10" pin="510,570" width="10" x="45" y="215"/>
+      <circ-port height="10" pin="1020,500" width="10" x="205" y="245"/>
+      <circ-port height="10" pin="890,600" width="10" x="105" y="245"/>
+      <circ-port height="8" pin="380,570" width="8" x="116" y="246"/>
+      <circ-port height="10" pin="510,570" width="10" x="95" y="245"/>
       <circ-port height="8" pin="360,620" width="8" x="46" y="226"/>
       <circ-anchor facing="east" height="6" width="6" x="147" y="137"/>
     </appear>
