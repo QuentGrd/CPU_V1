@@ -1,17 +1,23 @@
 \section{Spécification du processeur}
 \label{sec:specification}
 
+\paragraph{}Dans cette section, nous présentons la spécification du processeur réalisé. Pour cela, nous allons décrire chaque élément qui le compose. 
 \subsection{L'ALU}
 \label{sec:spec1}
 
-\paragraph{Premier paragraphe} On commence à expliquer...
-
-\paragraph{} Juste un simple paragraphe.
+\paragraph{} Une ALU est une Unité Arithmétique et Logique. Elle permet de réaliser des opérations sur des opérandes présentes à ses entrés. Pour ce projet, le but est de réaliser une ALU capable d'effectuer 8 opéarations différentes.
 
 \subsection{Le banc de registre}
 \label{sec:spec2}
 
-\paragraph{} 
+\paragraph{}Un banc de registres est une mémoire interne au processeur, dans laquelle sont rassemblés certains des registres du processeur. 
+Ce banc de registre contient : 
+\begin{itemize}
+\item 1 entrée sur 4 bits
+\item 2 sorties sur 4 bits
+\item 3 signaux de controle (lecture sur X, lecture sur Y et ecriture sur un registre)
+\item une horloge
+\end{itemize}
 
 \subsection{L'unité d'adressage}
 \label{sec:spec3}
@@ -21,4 +27,4 @@
 \subsection{L'unité de contrôle}
 \label{sec:spec4}
 
-\paragraph{} 
+\paragraph{} Le principe de fonctionnement d'une unité de contrôle est de lire le contenu du registre d'instruction, de le décoder et d'en déduire le positionnement des différents signaux de l'architecture (ALU, sources, destinations, accès mémoire).
