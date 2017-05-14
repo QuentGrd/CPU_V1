@@ -116,11 +116,30 @@
 \label{sec:real4}
 
 \paragraph{} Notre unité de contrôle est composée d'un registre d'instruction ainsi que de multiple décodeur d'instruction, s'occupant chacun d'une partie de l'instruction, et de plusieurs selecteurs de sorties.
+
 \paragraph{Problème rencontré} Bien que nous l'ayons implémenté, la sortie Fetch nous à posé problème, en effet nous ne comprenons son rôle dans le processeur, c'est pourquoi la sortie est tout de même branché à une constante (elle doit visiblement être constament à 1) mais pas utilisé.
 
 \subsection{Le CPU}
 \label{sec:real5}
 \paragraph{}Enfin notre CPU relie tous les composants vu ci dessus, ainsi que la mémoire RAM servant de mémoire de données ainsi qu'une mémoire ROM contenant le programme du processeur (la mémoire d'instruction).
+
+\paragraph{}Voici le tableau des instructions du processeur:
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|}
+\bf Opération & \bf Code d'Opération \\
+\hline
+ADD & 0000 \\
+OR & 0001 \\
+AND & 0010 \\
+NOT & 0011 \\
+SUBSTRACT & 0101 \\
+LOAD & 0100 \\
+STORE & 1000 \\
+\end{tabular}
+\caption{Code opération du CPU}
+\label{tab:opcode}
+\end{table}
 
 
 \begin{figure}[H]
