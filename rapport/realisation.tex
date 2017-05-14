@@ -15,9 +15,16 @@
 
 \begin{figure}[H]
 	\centering
-		\includegraphics[width=0.75\textwidth]{./img/ALU.png}
+		\includegraphics[width=0.75\textwidth]{./img/ALU_PROC.png}
 		\caption{Schéma complet de l'ALU}
 	\label{fig:alu}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+		\includegraphics[width=0.75\textwidth]{./img/ALU.png}
+		\caption{Schéma d'un ALU 1bit}
+	\label{fig:mux}
 \end{figure}
 
 \begin{figure}[H]
@@ -47,6 +54,27 @@
 \item 2 sélecteurs de registre (un pour le BUS X et l'autre pour le BUS Y)
 \end{itemize}
 
+\begin{figure}[H]
+	\centering
+		\includegraphics[width=0.75\textwidth]{./img/REGFILE.png}
+		\caption{Schéma du banc de registres}
+	\label{fig:REGFILE}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+		\includegraphics[width=10cm,height=8cm]{./img/REG4bits.png}
+		\caption{Schéma d'un registre 4bits}
+	\label{fig:REG 4 bits}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+		\includegraphics[width=0.75\textwidth]{./img/REGSEL.png}
+		\caption{Schéma du sélecteur de registre}
+	\label{fig:REGSEL}
+\end{figure}
+
 \subsection{L'Unité d'adressage}
 \label{sec:real3}
 \paragraph{}Notre Unité d'adressage est composé de 2 parties:
@@ -65,7 +93,22 @@
 \item 1 bit de validation d'écriture dans la mémoire de données
 \end{itemize}
 \end{itemize}
-\paragraph{Probème rencontré}Nous pouvons remarquer que la partie gérant la mémoire de données ne contient pas de registre d'adresse, en effet nous n'avons pas compris le rôle de ce registre, et son implementation provoque un disfonctionnement dans notre processeur du au retard provoqué sur l'arrivé de l'information à la mémoire RAM.
+
+\paragraph{Problème rencontré}Nous pouvons remarquer que la partie gérant la mémoire de données ne contient pas de registre d'adresse, en effet nous n'avons pas compris le rôle de ce registre, et son implementation provoque un disfonctionnement dans notre processeur du au retard provoqué sur l'arrivé de l'information à la mémoire RAM.
+
+\begin{figure}[H]
+	\centering
+		\includegraphics[width=10cm,height=8cm]{./img/UA.png}
+		\caption{Schéma complet de l'Unité d'adressage}
+	\label{fig:UA}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+		\includegraphics[width=4cm,height=6cm]{./img/PC.png}
+		\caption{Schéma du registre d'adresse d'instruction (PC)}
+	\label{fig:PC}
+\end{figure}
 
 \subsection{L'unité de contrôle}
 \label{sec:real4}
@@ -76,3 +119,11 @@
 \subsection{Le CPU}
 \label{sec:real5}
 \paragraph{}Enfin notre CPU relie tous les composants vu ci dessus, ainsi que la mémoire RAM servant de mémoire de données ainsi qu'une mémoire ROM contenant le programme du processeur (la mémoire d'instruction).
+
+
+\begin{figure}[H]
+	\centering
+		\includegraphics[width=0.75\textwidth]{./img/CPU.png}
+		\caption{Schéma complet du processeur}
+	\label{fig:CPU}
+\end{figure}
