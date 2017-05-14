@@ -100,7 +100,7 @@
 
 \begin{figure}[H]
 	\centering
-		\includegraphics[width=0.75\textwidth]{./img/UA.png}
+		\includegraphics[width=10cm,height=6cm]{./img/UA.png}
 		\caption{Schéma complet de l'Unité d'adressage}
 	\label{fig:UA}
 \end{figure}
@@ -118,6 +118,20 @@
 \paragraph{} Notre unité de contrôle est composée d'un registre d'instruction ainsi que de multiple décodeur d'instruction, s'occupant chacun d'une partie de l'instruction, et de plusieurs selecteurs de sorties.
 
 \paragraph{Problème rencontré} Bien que nous l'ayons implémenté, la sortie Fetch nous à posé problème, en effet nous ne comprenons son rôle dans le processeur, c'est pourquoi la sortie est tout de même branché à une constante (elle doit visiblement être constament à 1) mais pas utilisé.
+
+\begin{figure}[H]
+	\centering
+		\includegraphics[width=18cm,height=12cm]{./img/UC.png}
+		\caption{Schéma complet de l'Unité de contrôle}
+	\label{fig:UC}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+		\includegraphics[width=0.75\textwidth]{./img/ReadSelector.png}
+		\caption{Schéma complet du sélecteur de lecture}
+	\label{fig:ReadSelector}
+\end{figure}
 
 \subsection{Le CPU}
 \label{sec:real5}
