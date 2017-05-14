@@ -7,27 +7,29 @@
 
 \paragraph{Composition}Notre ALU est donc composé de :
 \begin{itemize}
-\item Un multiplexeur 
-\item 8 opérations
+\item 2 Entrées sur 4 Bits
+\item 1 Sortie sur 4 Bits
+\item 8 Opérations (Dont un Full Adder)
+\item 1 Multiplexeur 4Bits, 8 vers 1 
 \end{itemize}
 
 \begin{figure}[H]
 	\centering
-		\includegraphics[width=15cm,height=10cm]{./img/ALU.png}
+		\includegraphics[width=0.75\textwidth]{./img/ALU.png}
 		\caption{Schéma complet de l'ALU}
 	\label{fig:alu}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-		\includegraphics[width=12cm,height=8cm]{./img/fulladder.png}
+		\includegraphics[width=0.75\textwidth]{./img/fulladder.png}
 		\caption{Schéma du FullAdder}
 	\label{fig:fulladder}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-		\includegraphics[width=15cm,height=10cm]{./img/MUX.png}
+		\includegraphics[width=0.75\textwidth]{./img/MUX.png}
 		\caption{Schéma du Multiplexeur}
 	\label{fig:mux}
 \end{figure}
@@ -35,26 +37,42 @@
 \subsection{Le banc de registre}
 \label{sec:real2}
 
-\paragraph{} Notre banc de registre est ainsi :
+\paragraph{} Notre banc de registre est composé de:
 \begin{itemize}
-\item 4 registres 4 bits
-\item un décodeur
-\item 2 sélecteurs de registre (un pour le BUS X et l'autre pour le BUS Y)
-\item Un sélecteur de registre pour l'ecriture (sur 2 bits)
+\item Une entrée 4 bits
+\item 2 sorties 4 bits
+\item Un decodeur sur 2 bits en entrée
 \item Un bit de validation pour l'écriture
+\item 4 registres 4 bits
+\item 2 sélecteurs de registre (un pour le BUS X et l'autre pour le BUS Y)
 \end{itemize}
 
-\subsection{L'unité d'adressage}
+\subsection{L'Unité d'adressage}
 \label{sec:real3}
-
-\paragraph{} 
+\paragraph{}Notre Unité d'adressage est composé de 2 parties:
+\begin{itemize}
+\item Partie Instructions:
+\begin{itemize}
+\item 1 entrée 4bits (Adresse de la prochaine instructions)
+\item 2 sorties 4bits (Adresse de l'instruction en cours; Une sortie pour la mémoire d'instruction; Une sortie pour l'Unité de controle destiné au calcul de l'adresse de la prochaine instruction)
+\item Un registre d'adresse 4bits
+\item Un bit de validation d'écriture
+\end{itemize}
+\item Partie Données
+\begin{itemize}
+\item 1 entrée 4bits
+\item 1 sortie 4bits 
+\item 1 bit de validation d'écriture dans la mémoire de données
+\end{itemize}
+\end{itemize}
+\paragraph{Probème rencontré}Nous pouvons remarquer que la partie gérant la mémoire de données ne contient pas de registre d'adresse, en effet nous n'avons pas compris le rôle de ce registre, et son implementation provoque un disfonctionnement dans notre processeur du au retard provoqué sur l'arrivé de l'information à la mémoire RAM.
 
 \subsection{L'unité de contrôle}
 \label{sec:real4}
 
-\paragraph{} Notre unité de contrôle est composée d'un décodeur et d'un registre d'instruction.
+\paragraph{} Notre unité de contrôle est composée d'un registre d'instruction ainsi que de multiple décodeur d'instruction, s'occupant chacun d'une partie de l'instruction, et de plusieurs selecteurs de sorties.
+\paragraph{Problème rencontré} Bien que nous l'ayons implémenté, la sortie Fetch nous à posé problème, en effet nous ne comprenons son rôle dans le processeur, c'est pourquoi la sortie est tout de même branché à une constante (elle doit visiblement être constament à 1) mais pas utilisé.
 
 \subsection{Le CPU}
 \label{sec:real5}
-
-\paragraph{}Enfin pour concevoir le processeur il faut réunir les différentes parties vu ci-dessus.
+\paragraph{}Enfin notre CPU relie tous les composants vu ci dessus, ainsi que la mémoire RAM servant de mémoire de données ainsi qu'une mémoire ROM contenant le programme du processeur (la mémoire d'instruction).

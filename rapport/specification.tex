@@ -10,21 +10,20 @@
 \subsection{Le banc de registre}
 \label{sec:spec2}
 
-\paragraph{}Un banc de registres est une mémoire interne au processeur, dans laquelle sont rassemblés certains des registres du processeur. 
+\paragraph{}Un banc de registres est une mémoire interne au processeur, dans laquelle sont stockées des valeurs envoyées ou sortant de l'ALU. 
 Ce banc de registre contient : 
 \begin{itemize}
 \item 1 entrée sur 4 bits
 \item 2 sorties sur 4 bits
-\item 3 signaux de controle (lecture sur X, lecture sur Y et ecriture sur un registre)
+\item 3 signaux de controle (lecture sur X, lecture sur Y et écriture sur un registre)
 \item une horloge
 \end{itemize}
 
 \subsection{L'unité d'adressage}
 \label{sec:spec3}
-
-\paragraph{} 
+\paragraph{}L'unité d'adressage est en charge de communiquer avec les mémoires externe au processeur, elle à un rôle d'interface entre l'Unité de Contrôle et les mémoire externes. Aisni c'est elle qui va s'occuper de données d'instruction envoyé à l'UC, mais aussi des données à envoyer aux registres ou à enregistrer dans la mémoire RAM.
 
 \subsection{L'unité de contrôle}
 \label{sec:spec4}
 
-\paragraph{} Le principe de fonctionnement d'une unité de contrôle est de lire le contenu du registre d'instruction, de le décoder et d'en déduire le positionnement des différents signaux de l'architecture (ALU, sources, destinations, accès mémoire).
+\paragraph{}L'UC (pour Unité de Contrôle) a pour but de décoder l'instruction contenu dans le registre d'instruction propre à elle même, et d'en déduire le positionnement des différents signaux de l'architecture (ALU, sources, destinations, accès mémoire).
