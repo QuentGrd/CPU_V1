@@ -4,14 +4,14 @@
 \subsubsection{Schéma de la soustraction}
 \label{sec:ext1}
 
-\subsubsection{La soustraction}
-\label{sec:ext2}
-
-\paragraph{} Par manque de temps nous n'avons pas pu integrer la soustraction a notre ALU car cela demandait de revoir l'interface de notre ALU et de l'unité de controle. Malgré le fait qu'elle ne soit pas intégrée, elle fonctionne tout de même.
-
 \begin{figure}[H]
 	\centering
 		\includegraphics[width=6cm,height=8cm]{./img/soustractor.png}
 		\caption{Schéma de la soustraction}
 	\label{fig:Soustraction}
 \end{figure}
+
+\subsubsection{La soustraction}
+\label{sec:ext2}
+
+\paragraph{} La soustraction à été implémenté à l'ALU, et possède sont propre code d'instruction pour l'unité de contrôle. L'Opération est complétement opérationnel. Cependant par manque de temps et par soucis de conception, nous n'avons pu ajouter le signal sortant de l'ALU indiquant si la sortie était négative.

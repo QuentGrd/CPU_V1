@@ -54,6 +54,8 @@
 \item 2 sélecteurs de registre (un pour le BUS X et l'autre pour le BUS Y)
 \end{itemize}
 
+\paragraph{Problème rencontré}La bascule D que nous avons concu (grace aux schéma du cours), créait des problème d'oscillation lors du fonctionnement du registre, nous avons donc utilisé les registres implementé dans Logisim pour notre registre 4 bit. Nous avons préferé utilisé les registres de Logisim plutot que de remplacé les Bascule D par des D Latch, malgré que ces derniers fonctionnait très bien, car nous voulions profiter des avantages que nous offrait l'utilisation de l'horloge native à Logisim, notamment l'insensibilité au changement du signal entre deux front d'horloge, et ainsi anticiper un eventuel futur disfonctionnement du banc de registre.
+
 \begin{figure}[H]
 	\centering
 		\includegraphics[width=0.75\textwidth]{./img/REGFILE.png}
@@ -63,7 +65,7 @@
 
 \begin{figure}[H]
 	\centering
-		\includegraphics[width=10cm,height=8cm]{./img/REG4bits.png}
+		\includegraphics[width=0.75\textwidth]{./img/REG4bits.png}
 		\caption{Schéma d'un registre 4bits}
 	\label{fig:REG 4 bits}
 \end{figure}
@@ -98,7 +100,7 @@
 
 \begin{figure}[H]
 	\centering
-		\includegraphics[width=10cm,height=8cm]{./img/UA.png}
+		\includegraphics[width=0.75\textwidth]{./img/UA.png}
 		\caption{Schéma complet de l'Unité d'adressage}
 	\label{fig:UA}
 \end{figure}

@@ -1,12 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.11)  14 MAY 2017 17:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.16)  14 MAY 2017 18:30
 entering extended mode
-**./article.tex
-(article.tex
-LaTeX2e <2017-04-15>
-Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**article.tex
+(./article.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -20,19 +22,14 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2016/04/23 3.9r The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel-french\frenchb.ldf"
-Language: frenchb 2017/01/30 v3.2g French support from the babel system
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-french/frenchb.ldf
+Language: frenchb 2016/05/14 v3.2c French support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2016/04/23 3.9r Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
@@ -50,88 +47,90 @@ Package babel Info: Making ? an active character on input line 368.
 \FBguill@level=\count89
 \FB@everypar=\toks14
 \FB@Mht=\dimen104
-\mc@charclass=\count90
-\mc@charfam=\count91
-\mc@charslot=\count92
-\std@mcc=\count93
-\dec@mcc=\count94
+\std@mcc=\count90
+\dec@mcc=\count91
 \listindentFB=\skip46
-\descindentFB=\skip47
-\labelwidthFB=\skip48
-\leftmarginFB=\skip49
+\labelwidthFB=\skip47
+\leftmarginFB=\skip48
 \parindentFFN=\dimen105
-\FBfnindent=\skip50
+\FBfnindent=\skip49
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty")
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/local/texlive/2016/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
-File: latin1.def 2015/03/17 v1.2c Input encoding file
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks18
 \verbatim@line=\toks19
 \verbatim@in@stream=\read1
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
- ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count95
+\Gread@gobject=\count92
 ))
 \Gin@req@height=\dimen106
 \Gin@req@width=\dimen107
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -140,59 +139,68 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)) (macro.sty)
-("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
- ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(./macro.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count96
+\c@float@type=\count93
 \float@exts=\toks20
 \float@box=\box26
 \@float@everytoks=\toks21
 \@floatcapt=\box27
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks22
-\c@algorithm=\count97
+\c@algorithm=\count94
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithmic.sty"
+(/usr/local/texlive/2016/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count98
-\c@ALC@line=\count99
-\c@ALC@rem=\count100
-\c@ALC@depth=\count101
-\ALC@tlm=\skip51
-\algorithmicindent=\skip52
+\c@ALC@unique=\count95
+\c@ALC@line=\count96
+\c@ALC@rem=\count97
+\c@ALC@depth=\count98
+\ALC@tlm=\skip50
+\algorithmicindent=\skip51
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count102
-\Gm@cntv=\count103
-\c@Gm@tempcnt=\count104
+\Gm@cnth=\count99
+\Gm@cntv=\count100
+\c@Gm@tempcnt=\count101
 \Gm@bindingoffset=\dimen108
 \Gm@wd@mp=\dimen109
 \Gm@odd@mp=\dimen110
@@ -202,8 +210,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen114
 \Gm@layoutvoffset=\dimen115
 \Gm@dimlist=\toks23
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")) (article.aux
+)
+(./article.aux
 
 LaTeX Warning: Label `fig:mux' multiply defined.
 
@@ -225,18 +233,18 @@ LaTeX Font Info:    ... okay on input line 28.
 LaTeX Info: Redefining \degres on input line 28.
 LaTeX Info: Redefining \dots on input line 28.
 LaTeX Info: Redefining \up on input line 28.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+ (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count105
+\scratchcounter=\count102
 \scratchdimen=\dimen116
 \scratchbox=\box28
-\nofMPsegments=\count106
-\nofMParguments=\count107
+\nofMPsegments=\count103
+\nofMParguments=\count104
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count108
+\MPscratchCnt=\count105
 \MPscratchDim=\dimen117
-\MPnumerator=\count109
-\makeMPintoPDFobject=\count110
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
 \everyMPtoPDFconversion=\toks25
 )
 *geometry* driver: auto-detecting
@@ -273,19 +281,20 @@ LaTeX Info: Redefining \up on input line 28.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(titre.tex
+(./titre.tex
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 16.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) <img/proc.jpg, id=1, 514.92375pt x 365.86688pt>
+)
+<img/proc.jpg, id=1, 514.92375pt x 365.86688pt>
 File: img/proc.jpg Graphic file (type jpg)
-
-<use img/proc.jpg>
+ <use img/proc.jpg>
 Package pdftex.def Info: img/proc.jpg used on input line 23.
 (pdftex.def)             Requested size: 364.77342pt x 233.31659pt.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/proc.jpg>]) (article.toc
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/p
+roc.jpg>]) (./article.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -296,99 +305,110 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `article.toc'.
 
- (article.lof)
+ (./article.lof)
 \tf@lof=\write4
 \openout4 = `article.lof'.
 
-(article.lot)
+ (./article.lot)
 \tf@lot=\write5
 \openout5 = `article.lot'.
 
- (introduction.tex [1]) (specification.tex) (realisation.tex [2]
-<./img/ALU_PROC.png, id=17, 933.4875pt x 502.87875pt>
+ (./introduction.tex [1])
+(./specification.tex) (./realisation.tex [2]
+<./img/ALU_PROC.png, id=18, 933.4875pt x 502.87875pt>
 File: ./img/ALU_PROC.png Graphic file (type png)
  <use ./img/ALU_PROC.png>
 Package pdftex.def Info: ./img/ALU_PROC.png used on input line 18.
 (pdftex.def)             Requested size: 362.77264pt x 195.43132pt.
 
-<./img/ALU.png, id=18, 753.81625pt x 605.26125pt>
+<./img/ALU.png, id=19, 753.81625pt x 605.26125pt>
 File: ./img/ALU.png Graphic file (type png)
  <use ./img/ALU.png>
 Package pdftex.def Info: ./img/ALU.png used on input line 25.
 (pdftex.def)             Requested size: 362.77264pt x 291.2794pt.
 
-<./img/fulladder.png, id=19, 821.0675pt x 281.05pt>
+<./img/fulladder.png, id=20, 821.0675pt x 281.05pt>
 File: ./img/fulladder.png Graphic file (type png)
  <use ./img/fulladder.png>
 Package pdftex.def Info: ./img/fulladder.png used on input line 32.
 (pdftex.def)             Requested size: 362.77264pt x 124.1727pt.
- [3 <./img/ALU_PROC.png (PNG copy)> <./img/ALU.png (PNG copy)>] <./img/MUX.png, id=24, 873.2625pt x 792.9625pt>
+
+[3 <./img/ALU_PROC.png (PNG copy)> <./img/ALU.png (PNG copy)>]
+<./img/MUX.png, id=25, 873.2625pt x 792.9625pt>
 File: ./img/MUX.png Graphic file (type png)
  <use ./img/MUX.png>
 Package pdftex.def Info: ./img/MUX.png used on input line 39.
 (pdftex.def)             Requested size: 362.77264pt x 329.4121pt.
-
-<./img/REGFILE.png, id=25, 954.56625pt x 357.335pt>
+ [4 <./img/fulladder.png (PNG copy)> <./img/MUX.png (PNG copy)>]
+<./img/REGFILE.png, id=29, 954.56625pt x 357.335pt>
 File: ./img/REGFILE.png Graphic file (type png)
  <use ./img/REGFILE.png>
-Package pdftex.def Info: ./img/REGFILE.png used on input line 59.
+Package pdftex.def Info: ./img/REGFILE.png used on input line 61.
 (pdftex.def)             Requested size: 362.77264pt x 135.7996pt.
- [4 <./img/fulladder.png (PNG copy)> <./img/MUX.png (PNG copy)>] <./img/REG4bits.png, id=29, 436.63126pt x 411.5375pt>
+
+<./img/REG4bits.png, id=30, 436.63126pt x 411.5375pt>
 File: ./img/REG4bits.png Graphic file (type png)
  <use ./img/REG4bits.png>
-Package pdftex.def Info: ./img/REG4bits.png used on input line 66.
-(pdftex.def)             Requested size: 284.52649pt x 227.62108pt.
+Package pdftex.def Info: ./img/REG4bits.png used on input line 68.
+(pdftex.def)             Requested size: 362.77264pt x 341.92769pt.
 
-<./img/REGSEL.png, id=30, 582.175pt x 309.155pt>
+<./img/REGSEL.png, id=31, 582.175pt x 309.155pt>
 File: ./img/REGSEL.png Graphic file (type png)
  <use ./img/REGSEL.png>
-Package pdftex.def Info: ./img/REGSEL.png used on input line 73.
+Package pdftex.def Info: ./img/REGSEL.png used on input line 75.
 (pdftex.def)             Requested size: 362.77264pt x 192.64587pt.
- [5 <./img/REGFILE.png (PNG copy)> <./img/REG4bits.png (PNG copy)> <./img/REGSEL.png (PNG copy)>] <./img/UA.png, id=34, 
-448.67625pt x 311.1625pt>
+
+[5 <./img/REGFILE.png (PNG copy)> <./img/REG4bits.png (PNG copy)>]
+<./img/UA.png, id=35, 448.67625pt x 311.1625pt>
 File: ./img/UA.png Graphic file (type png)
  <use ./img/UA.png>
-Package pdftex.def Info: ./img/UA.png used on input line 101.
-(pdftex.def)             Requested size: 284.53656pt x 227.62154pt.
-
-<./img/PC.png, id=35, 138.5175pt x 228.855pt>
+Package pdftex.def Info: ./img/UA.png used on input line 103.
+(pdftex.def)             Requested size: 362.77264pt x 251.59393pt.
+ [6 <./img/REGSEL.png (PNG copy)>] <./img/PC.png, id=40, 138.5175pt x 228.855pt
+>
 File: ./img/PC.png Graphic file (type png)
- <use ./img/PC.png>
-Package pdftex.def Info: ./img/PC.png used on input line 108.
+
+<use ./img/PC.png>
+Package pdftex.def Info: ./img/PC.png used on input line 110.
 (pdftex.def)             Requested size: 113.81123pt x 170.72241pt.
- [6 <./img/UA.png (PNG copy)> <./img/PC.png (PNG copy)>] <./img/CPU.png, id=40, 884.30376pt x 712.6625pt>
+ <./img/CPU.png, id=41, 884.30376pt x 712.6625pt>
 File: ./img/CPU.png Graphic file (type png)
- <use ./img/CPU.png>
-Package pdftex.def Info: ./img/CPU.png used on input line 126.
+
+<use ./img/CPU.png>
+Package pdftex.def Info: ./img/CPU.png used on input line 128.
 (pdftex.def)             Requested size: 362.77264pt x 292.35663pt.
-) (extension.tex
-<./img/soustractor.png, id=41, 324.21124pt x 414.54875pt>
+) (./extension.tex [7 <./img/UA.png (PNG copy)> <./img/PC.png (PNG copy)>] <./i
+mg/soustractor.png, id=45, 324.21124pt x 414.54875pt>
 File: ./img/soustractor.png Graphic file (type png)
- <use ./img/soustractor.png>
-Package pdftex.def Info: ./img/soustractor.png used on input line 14.
+
+<use ./img/soustractor.png>
+Package pdftex.def Info: ./img/soustractor.png used on input line 9.
 (pdftex.def)             Requested size: 170.71805pt x 227.61665pt.
-) (deroulement.tex [7 <./img/CPU.png (PNG copy)>] [8 <./img/soustractor.png (PNG copy)>]) (conclusion.tex) [9] (article.
-aux)
+) (./deroulement.tex [8 <./img/CPU.png (PNG copy)> <./img/soustractor.png (PNG 
+copy)>]) (./conclusion.tex) [9] (./article.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3771 strings out of 493328
- 52878 string characters out of 3139118
- 127437 words of memory out of 3000000
- 7201 multiletter control sequences out of 15000+200000
- 13233 words of font info for 32 fonts, out of 3000000 for 9000
+ 3745 strings out of 493014
+ 53070 string characters out of 6133351
+ 126941 words of memory out of 5000000
+ 7187 multiletter control sequences out of 15000+600000
+ 13233 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,9n,30p,402b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\valdu95\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1095.pk> <C:\Users\valdu95\AppData\
-Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\valdu95\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
-our\jknappen\ec\dpi600\ecss2488.pk> <C:\Users\valdu95\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx10
-95.pk> <C:\Users\valdu95\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\valdu95\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk>
-Output written on article.pdf (10 pages, 239363 bytes).
+ 42i,9n,30p,718b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfss2488.pfb>
+Output written on article.pdf (10 pages, 264336 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
+ 74 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
