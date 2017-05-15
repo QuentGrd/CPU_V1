@@ -1,3 +1,4 @@
 \select@language {french}
-\contentsline {table}{\numberline {1}{\ignorespaces Code op\'eration du CPU}}{8}
-\contentsline {table}{\numberline {2}{\ignorespaces R\'epartition des t\^aches}}{10}
+\contentsline {table}{\numberline {1}{\ignorespaces Code op\'eration de l'ALU}}{3}
+\contentsline {table}{\numberline {2}{\ignorespaces Code op\'eration du CPU}}{9}
+\contentsline {table}{\numberline {3}{\ignorespaces R\'epartition des t\^aches}}{11}

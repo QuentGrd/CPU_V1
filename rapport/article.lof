@@ -1,14 +1,14 @@
 \select@language {french}
 \contentsline {figure}{\numberline {1}{\ignorespaces Sch\'ema complet de l'ALU}}{3}
-\contentsline {figure}{\numberline {2}{\ignorespaces Sch\'ema d'un ALU 1bit}}{3}
+\contentsline {figure}{\numberline {2}{\ignorespaces Sch\'ema d'un ALU 1bit}}{4}
 \contentsline {figure}{\numberline {3}{\ignorespaces Sch\'ema du FullAdder}}{4}
-\contentsline {figure}{\numberline {4}{\ignorespaces Sch\'ema du Multiplexeur}}{4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Sch\'ema du banc de registres}}{5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Sch\'ema d'un registre 4bits}}{5}
-\contentsline {figure}{\numberline {7}{\ignorespaces Sch\'ema du s\'electeur de registre}}{6}
-\contentsline {figure}{\numberline {8}{\ignorespaces Sch\'ema complet de l'Unit\'e d'adressage}}{6}
-\contentsline {figure}{\numberline {9}{\ignorespaces Sch\'ema du registre d'adresse d'instruction (PC)}}{7}
-\contentsline {figure}{\numberline {10}{\ignorespaces Sch\'ema complet de l'Unit\'e de contr\^ole}}{7}
-\contentsline {figure}{\numberline {11}{\ignorespaces Sch\'ema complet du s\'electeur de lecture}}{8}
-\contentsline {figure}{\numberline {12}{\ignorespaces Sch\'ema complet du processeur}}{9}
-\contentsline {figure}{\numberline {13}{\ignorespaces Sch\'ema de la soustraction}}{9}
+\contentsline {figure}{\numberline {4}{\ignorespaces Sch\'ema du Multiplexeur}}{5}
+\contentsline {figure}{\numberline {5}{\ignorespaces Sch\'ema du banc de registres}}{6}
+\contentsline {figure}{\numberline {6}{\ignorespaces Sch\'ema d'un registre 4bits}}{6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Sch\'ema du s\'electeur de registre}}{7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Sch\'ema complet de l'Unit\'e d'adressage}}{7}
+\contentsline {figure}{\numberline {9}{\ignorespaces Sch\'ema du registre d'adresse d'instruction (PC)}}{8}
+\contentsline {figure}{\numberline {10}{\ignorespaces Sch\'ema complet de l'Unit\'e de contr\^ole}}{8}
+\contentsline {figure}{\numberline {11}{\ignorespaces Sch\'ema complet du s\'electeur de lecture}}{9}
+\contentsline {figure}{\numberline {12}{\ignorespaces Sch\'ema complet du processeur}}{10}
+\contentsline {figure}{\numberline {13}{\ignorespaces Sch\'ema de la soustraction}}{10}

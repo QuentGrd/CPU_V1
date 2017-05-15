@@ -14,24 +14,25 @@
 \contentsline {section}{\numberline {3}R\'ealisation }{3}
 \contentsline {subsection}{\numberline {3.1}L'ALU}{3}
 \contentsline {paragraph}{Composition}{3}
-\contentsline {subsection}{\numberline {3.2}Le banc de registre}{4}
-\contentsline {paragraph}{}{4}
-\contentsline {paragraph}{Probl\`eme rencontr\'e}{4}
-\contentsline {subsection}{\numberline {3.3}L'Unit\'e d'adressage}{6}
-\contentsline {paragraph}{}{6}
-\contentsline {paragraph}{Probl\`eme rencontr\'e}{6}
-\contentsline {subsection}{\numberline {3.4}L'unit\'e de contr\^ole}{7}
+\contentsline {paragraph}{}{3}
+\contentsline {subsection}{\numberline {3.2}Le banc de registre}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {paragraph}{Probl\`eme rencontr\'e}{5}
+\contentsline {subsection}{\numberline {3.3}L'Unit\'e d'adressage}{7}
 \contentsline {paragraph}{}{7}
 \contentsline {paragraph}{Probl\`eme rencontr\'e}{7}
-\contentsline {subsection}{\numberline {3.5}Le CPU}{8}
+\contentsline {subsection}{\numberline {3.4}L'unit\'e de contr\^ole}{8}
 \contentsline {paragraph}{}{8}
-\contentsline {paragraph}{}{8}
-\contentsline {section}{\numberline {4}Extension}{9}
-\contentsline {subsection}{\numberline {4.1}Sch\'ema de la soustraction}{9}
-\contentsline {subsection}{\numberline {4.2}La soustraction}{9}
+\contentsline {paragraph}{Probl\`eme rencontr\'e}{8}
+\contentsline {subsection}{\numberline {3.5}Le CPU}{9}
 \contentsline {paragraph}{}{9}
-\contentsline {section}{\numberline {5}D\'eroulement du projet}{10}
-\contentsline {subsection}{\numberline {5.1}Synchronisation du travail}{10}
+\contentsline {paragraph}{}{9}
+\contentsline {section}{\numberline {4}Extension}{10}
+\contentsline {subsection}{\numberline {4.1}Sch\'ema de la soustraction}{10}
+\contentsline {subsection}{\numberline {4.2}La soustraction}{10}
 \contentsline {paragraph}{}{10}
-\contentsline {subsection}{\numberline {5.2}R\'epartition du travail}{10}
-\contentsline {subsection}{\numberline {5.3}Probl\`emes rencontr\'es}{10}
+\contentsline {section}{\numberline {5}D\'eroulement du projet}{11}
+\contentsline {subsection}{\numberline {5.1}Synchronisation du travail}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {subsection}{\numberline {5.2}R\'epartition du travail}{11}
+\contentsline {subsection}{\numberline {5.3}Probl\`emes rencontr\'es}{11}
