@@ -5,7 +5,7 @@
 \subsection{L'ALU}
 \label{sec:real1}
 
-\paragraph{Composition}Notre ALU est donc composé de :
+\paragraph{Composition}Notre ALU est donc composée de :
 \begin{itemize}
 \item 2 Entrées sur 4 Bits
 \item 1 Sortie sur 4 Bits
@@ -43,7 +43,7 @@ NXOR & 111 \\
 \begin{figure}[H]
 	\centering
 		\includegraphics[width=0.75\textwidth]{./img/ALU.png}
-		\caption{Schéma d'un ALU 1bit}
+		\caption{Schéma d'une ALU 1bit}
 	\label{fig:mux}
 \end{figure}
 
@@ -68,13 +68,13 @@ NXOR & 111 \\
 \begin{itemize}
 \item Une entrée 4 bits
 \item 2 sorties 4 bits
-\item Un decodeur sur 2 bits en entrée
+\item Un décodeur sur 2 bits en entrée
 \item Un bit de validation pour l'écriture
 \item 4 registres 4 bits
 \item 2 sélecteurs de registre (un pour le BUS X et l'autre pour le BUS Y)
 \end{itemize}
 
-\paragraph{Problème rencontré}La bascule D que nous avons concu (grace aux schéma du cours), créait des problème d'oscillation lors du fonctionnement du registre, nous avons donc utilisé les registres implementé dans Logisim pour notre registre 4 bit. Nous avons préferé utilisé les registres de Logisim plutot que de remplacé les Bascule D par des D Latch, malgré que ces derniers fonctionnait très bien, car nous voulions profiter des avantages que nous offrait l'utilisation de l'horloge native à Logisim, notamment l'insensibilité au changement du signal entre deux front d'horloge, et ainsi anticiper un eventuel futur disfonctionnement du banc de registre.
+\paragraph{Problème rencontré}La bascule D que nous avons conçu (grace aux schémas du cours), créait des problèmes d'oscillations lors du fonctionnement du registre, nous avons donc utilisé les registres implementés dans Logisim pour notre registre 4 bit. Nous avons préferé utiliser les registres de Logisim plutôt que de remplacer les Bascules D par des D Latch, malgré que ces derniers fonctionnaient très bien, car nous voulions profiter des avantages que nous offrait l'utilisation de l'horloge native à Logisim, notamment l'insensibilité au changement du signal entre deux fronts d'horloge, et ainsi anticiper un éventuel futur disfonctionnement du banc de registre.
 
 \begin{figure}[H]
 	\centering
@@ -99,16 +99,16 @@ NXOR & 111 \\
 
 \subsection{L'Unité d'adressage}
 \label{sec:real3}
-\paragraph{}Notre Unité d'adressage est composé de 2 parties:
+\paragraph{}Notre Unité d'adressage est composée de 2 parties:
 \begin{itemize}
 \item Partie Instructions:
 \begin{itemize}
-\item 1 entrée 4bits (Adresse de la prochaine instructions)
-\item 2 sorties 4bits (Adresse de l'instruction en cours; Une sortie pour la mémoire d'instruction; Une sortie pour l'Unité de controle destiné au calcul de l'adresse de la prochaine instruction)
+\item 1 entrée 4bits (Adresse de la prochaine instruction)
+\item 2 sorties 4bits (Adresse de l'instruction en cours; Une sortie pour la mémoire d'instruction; Une sortie pour l'Unité de contrôle destinée au calcul de l'adresse de la prochaine instruction)
 \item Un registre d'adresse 4bits
 \item Un bit de validation d'écriture
 \end{itemize}
-\item Partie Données
+\item Partie Données :
 \begin{itemize}
 \item 1 entrée 4bits
 \item 1 sortie 4bits 
@@ -116,7 +116,7 @@ NXOR & 111 \\
 \end{itemize}
 \end{itemize}
 
-\paragraph{Problème rencontré}Nous pouvons remarquer que la partie gérant la mémoire de données ne contient pas de registre d'adresse, en effet nous n'avons pas compris le rôle de ce registre, et son implementation provoque un disfonctionnement dans notre processeur du au retard provoqué sur l'arrivé de l'information à la mémoire RAM.
+\paragraph{Problème rencontré}Nous pouvons remarquer que la partie gérant la mémoire de données ne contient pas de registre d'adresse, en effet nous n'avons pas compris le rôle de ce registre, et son implémentation provoque un disfonctionnement dans notre processeur dû au retard provoqué sur l'arrivée de l'information à la mémoire RAM.
 
 \begin{figure}[H]
 	\centering
@@ -135,9 +135,9 @@ NXOR & 111 \\
 \subsection{L'unité de contrôle}
 \label{sec:real4}
 
-\paragraph{} Notre unité de contrôle est composée d'un registre d'instruction ainsi que de multiple décodeur d'instruction, s'occupant chacun d'une partie de l'instruction, et de plusieurs selecteurs de sorties.
+\paragraph{} Notre Unité de contrôle est composée d'un registre d'instruction ainsi que de multiple décodeurs d'instruction, s'occupant chacun d'une partie de l'instruction, et de plusieurs sélecteurs de sorties.
 
-\paragraph{Problème rencontré} Bien que nous l'ayons implémenté, la sortie Fetch nous à posé problème, en effet nous ne comprenons son rôle dans le processeur, c'est pourquoi la sortie est tout de même branché à une constante (elle doit visiblement être constament à 1) mais pas utilisé.
+\paragraph{Problème rencontré} Bien que nous l'ayons implémenté, la sortie Fetch nous a posé problème, en effet nous ne comprenons pas son rôle dans le processeur, c'est pourquoi la sortie est tout de même branchée à une constante (elle doit visiblement être constamment à 1) mais pas utilisée.
 
 \begin{figure}[H]
 	\centering
@@ -155,7 +155,7 @@ NXOR & 111 \\
 
 \subsection{Le CPU}
 \label{sec:real5}
-\paragraph{}Enfin notre CPU relie tous les composants vu ci dessus, ainsi que la mémoire RAM servant de mémoire de données ainsi qu'une mémoire ROM contenant le programme du processeur (la mémoire d'instruction).
+\paragraph{}Enfin notre CPU relie tous les composants vu ci-dessus, ainsi que la mémoire RAM servant de mémoire de données ainsi qu'une mémoire ROM contenant le programme du processeur (la mémoire d'instruction).
 
 \paragraph{}Voici le tableau des instructions du processeur:
 \begin{table}[H]
